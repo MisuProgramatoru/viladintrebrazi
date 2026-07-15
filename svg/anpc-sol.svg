@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="50" viewBox="0 0 250 50" role="img" aria-label="Comisia Europeană - Soluționarea Online a Litigiilor">
+  <rect width="250" height="50" rx="4" fill="#034ea2"/>
+  <rect x="1" y="1" width="248" height="48" rx="3.5" fill="none" stroke="#ffffff" stroke-opacity="0.25"/>
+  <text x="14" y="21" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#ffd617">Comisia Europeană</text>
+  <text x="14" y="37" font-family="Arial, sans-serif" font-size="9" fill="#e8f0ff">Soluționarea Online</text>
+  <text x="14" y="46" font-family="Arial, sans-serif" font-size="9" fill="#e8f0ff">a Litigiilor (SOL)</text>
+  <circle cx="222" cy="25" r="15" fill="#ffd617"/>
+  <text x="222" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#034ea2">SOL</text>
+</svg>

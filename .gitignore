@@ -1,0 +1,13 @@
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# Original full-size photos kept only as local backups.
+# The live site uses the optimized copies in ./images/*.webp
+poze/
+portofoliu FINAL/
+fraga.jpeg
+fraga.webp
+
+CLAUDE.md
+.claude/

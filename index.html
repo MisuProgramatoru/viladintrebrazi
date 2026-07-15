@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vila dintre Brazi – Cazare în Păltiniș, Sibiu | Două vile la munte</title>
+  <meta name="description"
+    content="Vila dintre Brazi – două vile de închiriat în Păltiniș, Sibiu. Ideal pentru familii, grupuri, tabere și teambuilding. Foișor cu grătar (BBQ), la 10 minute de pârtie. Rezervă pe WhatsApp.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://viladintrebrazi.com/">
+  <meta name="theme-color" content="#253D2C">
+  <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vila dintre Brazi">
+  <meta property="og:title" content="Vila dintre Brazi – Cazare în Păltiniș, Sibiu">
+  <meta property="og:description"
+    content="Două vile la munte în Păltiniș. Natură, liniște și confort, foișor cu grătar, la 10 minute de pârtie.">
+  <meta property="og:image" content="https://viladintrebrazi.com/images/heropic.webp">
+  <meta property="og:url" content="https://viladintrebrazi.com/">
+  <meta property="og:locale" content="ro_RO">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" as="image" href="./images/heropic.webp" fetchpriority="high">
+
+  <!-- Fonts-->
+ <!-- Google Fonts loaded with explicit Latin-Extended support -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap&subset=latin,latin-ext" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- Local business structured data (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Vila dintre Brazi",
+    "description": "Două vile de închiriat în Păltiniș, Sibiu – ideal pentru familii, grupuri, tabere și teambuilding.",
+    "url": "https://viladintrebrazi.com/",
+    "telephone": "+40745306009",
+    "image": "https://viladintrebrazi.com/images/heropic.webp",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Strada Bradului 2",
+      "addressLocality": "Păltiniș",
+      "addressRegion": "Sibiu",
+      "postalCode": "550001",
+      "addressCountry": "RO"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 45.679147, "longitude": 23.938331 },
+    "sameAs": ["https://instagram.com/vila_dintre_brazi"]
+  }
+  </script>
+</head>
+
+<body>
+  <nav>
+    <button id="menubtn" aria-label="Menu">
+      <div class="bar top"></div>
+      <div class="bar mid"></div>
+      <div class="bar bot"></div>
+    </button>
+
+    <div id="left">
+      <a href="./index.html" id="logo"></a>
+    </div>
+
+    <div id="right">
+      <div class="pages">
+        <a href="./index.html" class="t linkActive" data-ro="ACASĂ" data-en="HOME">ACASĂ</a>
+        <a href="./rooms-facilities.html" class="t" data-ro="CAMERE & FACILITĂȚI" data-en="ROOMS & FACILITIES">CAMERE &
+          FACILITĂȚI</a>
+        <a href="./activities.html" class="t" data-ro="ACTIVITĂȚI" data-en="ACTIVITIES">ACTIVITĂȚI</a>
+      </div>
+
+      <div class="langdrop" id="langdrop">
+        <button class="langdrop__btn" id="langBtn">
+          <img loading="lazy" decoding="async" class="flag" src="./svg/ro.svg" alt="RO flag">
+          <span class="code">RO</span>
+        </button>
+        <ul class="langdrop__menu hidden" id="langMenu">
+          <li class="langdrop__item" data-lang="ro"><img loading="lazy" decoding="async" class="flag" src="./svg/ro.svg"> <span
+              class="label">Română</span> <span class="tick">✓</span></li>
+          <li class="langdrop__item" data-lang="en"><img loading="lazy" decoding="async" class="flag" src="./svg/en.svg"> <span
+              class="label">English</span> <span class="tick"></span></li>
+          <li class="langdrop__item" data-lang="de"><img loading="lazy" decoding="async" class="flag" src="./svg/de.svg"> <span
+              class="label">Deutsch</span> <span class="tick"></span></li>
+        </ul>
+      </div>
+
+      <div id="contact">
+        <a href="https://wa.me/+40745306009" target="_blank" class="nav-wa">
+          <svg width="45" height="45" viewBox="0 0 64 64" fill="none">
+            <rect width="64" height="64" rx="32" fill="#00D95F" />
+            <path
+              d="M15.7729 46.5263L18.0362 38.1186C16.2109 34.8433 15.631 31.0214 16.4029 27.3541C17.1748 23.6869 19.2466 20.4202 22.2382 18.1537C25.2298 15.8871 28.9405 14.7726 32.6895 15.0147C36.4384 15.2569 39.974 16.8394 42.6476 19.4719C45.3212 22.1044 46.9533 25.6102 47.2446 29.3462C47.5358 33.0821 46.4666 36.7975 44.2332 39.8106C41.9997 42.8237 38.7518 44.9323 35.0855 45.7496C31.4191 46.5669 27.5803 46.038 24.2734 44.2599L15.7729 46.5263Z"
+              fill="white" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div id="menu">
+      <a href="./index.html" class="t linkActive" data-ro="ACASĂ" data-en="HOME">ACASĂ</a>
+      <a href="./rooms-facilities.html" class="t" data-ro="CAMERE & FACILITĂȚI" data-en="ROOMS & FACILITIES">CAMERE &
+        FACILITĂȚI</a>
+      <a href="./activities.html" class="t" data-ro="ACTIVITĂȚI" data-en="ACTIVITIES">ACTIVITĂȚI</a>
+      <hr style="width: 60%; opacity: 0.1; margin: 15px 0;">
+      <a href="tel:+40745306009" class="t secondary" data-ro="SUNĂ PROPRIETAR" data-en="CALL OWNER">SUNĂ PROPRIETAR</a>
+      <a href="https://instagram.com/vila_dintre_brazi" target="_blank" class="t secondary" data-ro="INSTAGRAM"
+        data-en="INSTAGRAM">INSTAGRAM</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Vila dintre Brazi</h1>
+        <p class="t" data-ro="Două vile cu un peisaj de neuitat. Natură, liniște, confort."
+          data-en="Two villas with an unforgettable view. Nature, tranquility, comfort."
+          data-de="Zwei Villen mit einem unvergesslichen Ausblick. Natur, Ruhe und Komfort.">
+          Două vile cu un peisaj de neuitat. Natură, liniște, confort.
+        </p>
+
+        <div class="hero-actions">
+          <a href="./rooms-facilities.html" class="btn btn--primary t" data-ro="Descoperă camerele" data-en="Discover our rooms"
+            data-de="Entdecke unsere Zimmer">Descoperă camerele</a>
+          <a href="#reservation" class="btn btn--outline t" data-ro="Rezervă acum" data-en="Book now"
+            data-de="Jetzt buchen">Rezervă acum</a>
+        </div>
+      </div>
+    </div>
+
+    
+  
+  </header>
+
+
+
+
+
+  <section class="villa-about-clean">
+    <div class="about-container">
+
+      <div class="about-media">
+        <video class="about-video" loop playsinline preload="none" poster="./images/droneview.webp">
+          <source src="video/villaDroneVideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <button type="button" class="video-play-btn" aria-label="Redă videoclipul">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true" fill="currentColor">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </button>
+        <div class="about-overlay-text">
+          <p class="t" data-ro="Vă găzduim cu mare drag încă din 2010."
+            data-en="We have gladly hosted you since 2010."
+            data-de="Wir heißen Sie seit 2010 herzlich willkommen.">
+            Vă gazduim cu mare drag încă din 2010.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <small>viladintrebrazi.com</small>
+        <h2 class="t" data-ro="Vila dintre Brazi" data-en="Vila dintre Brazi" data-de="Vila dintre Brazi">Vila dintre
+          Brazi</h2>
+
+        <p class="t"
+          data-ro="Amplasată în prima stațiune montană din România, vila oferă intimitate, confort și o vedere panoramică impresionantă. Este ideală pentru familii și grupuri mici sau medii care vor liniște și natură."
+          data-en="Located in Romania's first mountain resort, the villa offers privacy, comfort, and an impressive panoramic view. It is ideal for families and small or medium groups seeking peace and nature."
+          data-de="Gelegen im ersten Gebirgskurort Rumäniens bietet die Villa Privatsphäre, Komfort und einen beeindruckenden Panoramablick. Sie ist ideal für Familien sowie kleine oder mittlere Gruppen, die Ruhe und Natur suchen.">
+          Amplasată în prima stațiune montană din România, vila oferă intimitate, confort și o vedere panoramică
+          impresionantă. Este ideală pentru familii grupuri mici sau medii care vor liniște și natură.
+        </p>
+
+        <p class="t"
+          data-ro="Administrată de o familie locală, vila păstrează un aer tradițional cu facilități moderne. Este disponibilă în regim self-catering."
+          data-en="Managed by a local family, the villa maintains a traditional feel with modern facilities. It is available in self-catering regime."
+          data-de="Von einer einheimischen Familie geführt, bewahrt die Villa eine traditionelle Atmosphäre mit modernen Einrichtungen. Sie ist zur Selbstverpflegung verfügbar.">
+          Administrată de o familie locală, vila păstrează un aer tradițional cu facilități moderne. Este disponibilă în
+          regim self-catering.
+        </p>
+
+        <a href="./rooms-facilities.html" class="btn btn--outline t" data-ro="Vezi camerele" data-en="See the rooms"
+          data-de="Zimmer ansehen">Vezi camerele</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+<!--
+  <div class="content">
+    <div id="slider">
+      <div class="slider-img" id="slide1"></div>
+      <div class="slider-img" id="slide2"></div>
+      <div id="house_selector">
+        <button id="vila1" class="active">Vila 1</button>
+        <button id="vila2">Vila 2</button>
+      </div>
+    </div>
+
+    <section id="shortinfo1" class="on">
+      <h2 class="t" data-ro="Informații generale" data-en="General information" data-de="Allgemeine Informationen">
+        Informații generale</h2>
+      <ul>
+        <li class="t" data-ro="Check in: 15:00" data-en="Check in: 15:00" data-de="Check-in: 15:00">Check in: 15:00</li>
+
+        <li class="t" data-ro="Check out: 11:00" data-en="Check out: 11:00" data-de="Check-out: 11:00">Check out: 11:00
+        </li>
+
+        <li class="t" data-ro="Capacitate de 40 de locuri" data-en="We are able to host 40 people."
+          data-de="Kapazität: 40 Plätze">Capacitate de 40 de locuri</li>
+
+        <li class="t" data-ro="Camere de 2, 3, 4 locuri" data-en="Rooms for 2, 3, 4 persons"
+          data-de="Zimmer für 2, 3, 4 Personen">Camere de 2, 3, 4 locuri</li>
+
+        <li class="t" data-ro="Apartamente de 4, 5 locuri" data-en="Apartments for 4, 5 persons"
+          data-de="Apartments für 4, 5 Personen">Apartamente de 4, 5 locuri</li>
+
+        <li class="t" data-ro="Bucatarie utilata complet (frigider, congelator, aragaz, hota, microunde , cuptor etc.)"
+          data-en="Fully equipped kitchen (fridge, freezer, stove, hood, microwave, oven, etc.)"
+          data-de="Voll ausgestattete Küche (Kühlschrank, Gefrierschrank, Herd, Dunstabzugshaube, Mikrowelle, Ofen usw.)">
+          Bucătărie utilată complet (frigider, congelator, aragaz, hotă, microunde , cuptor etc.)
+        </li>
+
+        <li class="t" data-ro="Living & sala de mese" data-en="Living & dining room" data-de="Wohn- & Esszimmer">Living
+          & sala de mese</li>
+
+        <li class="t" data-ro="Foișor BBQ" data-en="BBQ patio" data-de="BBQ-Pavillon">Foișor BBQ</li>
+
+        <li class="t" data-ro="Foișor pentru servit masa în natură" data-en="Patio for dining in nature"
+          data-de="Esspavillon im Freien">Foișor pentru servit masa în natură</li>
+
+        <li class="t" data-ro="Tenis de masă" data-en="Table tennis" data-de="Tischtennis">Tenis de masă</li>
+      </ul>
+    </section>
+
+    <section id="shortinfo2" class="off">
+      <h2 class="t" data-ro="Informații generale" data-en="General information" data-de="Allgemeine Informationen">
+        Informații generale</h2>
+      <ul>
+        <li class="t" data-ro="Check in: 15:00" data-en="Check in: 15:00" data-de="Check-in: 15:00">Check in: 15:00</li>
+
+        <li class="t" data-ro="Check out: 11:00" data-en="Check out: 11:00" data-de="Check-out: 11:00">Check out: 11:00
+        </li>
+
+        <li class="t" data-ro="Capacitate de 16 locuri" data-en="We are able to host 16 people."
+          data-de="Kapazität: 16 Plätze">Capacitate de 16 locuri</li>
+
+        <li class="t" data-ro="Camere de 2, 3 locuri" data-en="Rooms for 2, 3 persons"
+          data-de="Zimmer für 2, 3 Personen">Camere de 2, 3 locuri</li>
+
+        <li class="t" data-ro="Apartament de 5 locuri" data-en="Apartment for 5 persons"
+          data-de="Apartment für 5 Personen">Apartament de 5 locuri</li>
+
+        <li class="t" data-ro="Bucătărie utilată complet (frigider, congelator, aragaz, hotă, microunde , cuptor etc.)"
+          data-en="Fully equipped kitchen (fridge, freezer, stove, hood, microwave, oven, etc.)"
+          data-de="Voll ausgestattete Küche (Kühlschrank, Gefrierschrank, Herd, Dunstabzugshaube, Mikrowelle, Ofen usw.)">
+          Bucătărie utilată complet (frigider, congelator, aragaz, hotă, microunde , cuptor etc.)
+        </li>
+
+        <li class="t" data-ro="Foișor + grătar" data-en="Patio + grill" data-de="Pavillon + Grill">Foișor + gratar</li>
+
+        <li class="t" data-ro="Tenis de masă" data-en="Table tennis" data-de="Tischtennis">Tenis de masă</li>
+      </ul>
+    </section>
+  </div>
+-->
+  <section class="stacking-cards-section">
+
+    <div class="stack-card">
+      <div class="stack-card-content">
+        <span class="stack-step t" data-ro="Vila 1" data-en="Villa 1" data-de="Villa 1">Vila 1</span>
+
+        <h2 class="t" data-ro="Spațiu generos pentru grupuri" data-en="Generous space for groups"
+          data-de="Großzügiger Raum für Gruppen">Spațiu generos pentru grupuri</h2>
+
+        <p class="t"
+          data-ro="Vila 1 este ideală pentru tabere și teambuilding-uri. Dispune de 40 de locuri, o sală de mese spațioasă și o bucătărie complet utilată pentru autogospodărire."
+          data-en="Villa 1 is ideal for camps and team buildings. It features 40 spots, a spacious dining room, and a fully equipped self-catering kitchen."
+          data-de="Villa 1 ist ideal für Camps und Teambuilding. Sie verfügt über 40 Plätze, einen geräumigen Speisesaal und eine voll ausgestattete Küche zur Selbstverpflegung.">
+          Vila 1 este ideală pentru tabere și teambuilding-uri. Dispune de 40 de locuri, o sală de mese spațioasă și o
+          bucătărie complet utilată pentru autogospodărire.
+        </p>
+
+        <ul class="stack-features">
+          <li class="t " data-ro="40 Locuri de cazare" data-en="40 Sleeping spots" data-de="40 Schlafplätze">40 Locuri de
+            cazare</li>
+
+          <li class="t" data-ro="Sală de Conferințe" data-en="Conference Room" data-de="Konferenzraum">Sală de
+            Conferințe</li>
+
+          <li class="t" data-ro="Foișor & BBQ" data-en="Patio & BBQ" data-de="Pavillon & BBQ">Foișor & BBQ</li>
+        </ul>
+
+        <a href="./rooms-facilities.html" class="btn btn--primary t" data-ro="Vezi Detalii" data-en="View Details"
+          data-de="Details ansehen">Vezi Detalii</a>
+      </div>
+      <div class="stack-card-image">
+        <img loading="lazy" decoding="async" src="./images/v1_p1.webp" alt="Vila 1 Exterior">
+      </div>
+    </div>
+
+    <div class="stack-card">
+      <div class="stack-card-content">
+        <span class="stack-step t" data-ro="Vila 2" data-en="Villa 2" data-de="Villa 2">Vila 2</span>
+
+        <h2 class="t" data-ro="Intimitate și confort modern" data-en="Privacy and modern comfort"
+          data-de="Privatsphäre und moderner Komfort">Intimitate și confort modern</h2>
+
+        <p class="t"
+          data-ro="Perfectă pentru grupuri medii (16 persoane). Vila 2 oferă un living panoramic superb, șemineu și acces rapid la pârtia de schi."
+          data-en="Perfect for medium groups (16 people). Villa 2 offers a superb panoramic living room, fireplace, and quick access to the ski slope."
+          data-de="Perfekt für mittlere Gruppen (16 Personen). Villa 2 bietet ein herrliches Panorama-Wohnzimmer, Kamin und schnellen Zugang zur Skipiste.">
+          Perfectă pentru grupuri medii (16 persoane). Vila 2 oferă un living panoramic superb, șemineu și acces rapid
+          la pârtia de schi.
+        </p>
+
+        <ul class="stack-features">
+          <li class="t" data-ro="16 Locuri de cazare" data-en="16 Sleeping spots" data-de="16 Schlafplätze">16 Locuri de
+            cazare</li>
+
+          <li class="t" data-ro="Living Panoramic" data-en="Panoramic Living" data-de="Panorama-Wohnzimmer">Living
+            Panoramic</li>
+
+          <li class="t" data-ro="Bucătărie Modernă" data-en="Modern Kitchen" data-de="Moderne Küche">Bucătărie Modernă
+          </li>
+        </ul>
+
+        <a href="./rooms-facilities.html" class="btn btn--primary t" data-ro="Vezi Detalii" data-en="View Details"
+          data-de="Details ansehen">Vezi Detalii</a>
+      </div>
+      <div class="stack-card-image">
+        <img loading="lazy" decoding="async" src="./images/v2iarna.webp" alt="Vila 2 Exterior">
+      </div>
+    </div>
+
+    <div class="stack-card">
+      <div class="stack-card-content">
+        <span class="stack-step t" data-ro="Activități" data-en="Activities" data-de="Aktivitäten">Activități</span>
+
+        <h2 class="t" data-ro="Aventura începe aici" data-en="Adventure starts here"
+          data-de="Das Abenteuer beginnt hier">Aventura începe aici</h2>
+
+        <p class="t"
+          data-ro="Fie că ești pasionat de ski, drumeții montane sau doar vrei să te relaxezi lângă un foc de tabără, Păltinișul are tot ce îți dorești."
+          data-en="Whether you are passionate about skiing, hiking, or just want to relax by a campfire, Păltiniș has everything you desire."
+          data-de="Ob Sie sich für Skifahren oder Wandern begeistern oder einfach nur am Lagerfeuer entspannen möchten, Păltiniș hat alles, was Sie sich wünschen.">
+          Fie că ești pasionat de ski, drumeții montane sau doar vrei să te relaxezi lângă un foc de tabără, Păltinișul
+          are tot ce îți dorești.
+        </p>
+
+        <ul class="stack-features">
+          <li class="t" data-ro="Ski Păltiniș Arena" data-en="Ski Păltiniș Arena" data-de="Ski Păltiniș Arena">Ski
+            Păltiniș Arena</li>
+
+          <li class="t" data-ro="Drumeții" data-en="Hiking" data-de="Wandern">Drumeții</li>
+
+          <li class="t" data-ro="Tenis de masă" data-en="Table tennis" data-de="Tischtennis">Tenis de masă</li>
+        </ul>
+
+        <a href="./activities.html" class="btn btn--primary t" data-ro="Descoperă Activități" data-en="Discover Activities"
+          data-de="Aktivitäten entdecken">Descoperă Activități</a>
+      </div>
+      <div class="stack-card-image">
+        <img loading="lazy" decoding="async" src="./images/snowboard.webp" alt="Activitati Paltinis">
+      </div>
+    </div>
+
+  </section>
+
+  <div class="slider-container" id="rooms">
+    <h2 class="t" data-ro="Vila 1" data-en="Vila 1" data-de="Vila 1">Vila 1</h2>
+
+    <section class="house-showcase">
+      <div class="current-image"></div>
+
+      <div class="slider-image">
+        <button class="slider-btn prev">&lt;</button>
+        <button class="slider-btn next">&gt;</button>
+        <img loading="lazy" decoding="async" src="./images/v1_p1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Vila 1" data-en="Vila 1" data-de="Villa 1">Vila 1</h1>
+          <p class="t" data-ro="40 Locuri • Bucătărie • Living și sală de mese"
+            data-en="Suitable for 40 persons • kitchen • Living and dining room"
+            data-de="40 Plätze • Küche • Wohn- und Esszimmer">40 Locuri • Bucătărie • Living și sală de mese</p>
+          <a href="./rooms-facilities.html" class="btn btn--primary btn--sm t" data-ro="Descoperă camerele"
+            data-en="Discover our rooms" data-de="Entdecke unsere Zimmer">Descoperă camerele</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bucatarie.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Bucătărie" data-en="Kitchen" data-de="Küche">Bucătărie</h1>
+          <p class="t" data-ro="Vila se închirează în regim de autogospodărire."
+            data-en="The villa is rented on a self-catering basis."
+            data-de="Die Villa wird zur Selbstverpflegung vermietet.">Vila se închirează în regim de autogospodărire.
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/salamese1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Sala de mese" data-en="Living/dining room" data-de="Wohn-/Esszimmer">Sala de mese</h1>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/salon1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Sală de evenimente" data-en="Event hall" data-de="Veranstaltungssaal">Sală de
+            evenimente</h1>
+          <p class="t" data-ro="Sală de conferințe • Team building • Cununii"
+            data-en="Conference room • Team building • Weddings" data-de="Konferenzraum • Teambuilding • Hochzeiten">
+            Sală de conferințe • Team building • Cununii</p>
+          <p class="t" data-ro="În atenția clienților: sala se închirează contra cost, separat de închirierea vilei."
+            data-en="Dear guests, the hall is available for rent for an additional fee, separate from the villa rental."
+            data-de="Wichtiger Hinweis: Der Saal kann gegen Aufpreis gemietet werden, unabhängig von der Villa.">
+            În atenția clienților: sala se închirează contra cost, separat de închirierea vilei.
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/terasa.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Terasă" data-en="Terrace" data-de="Terrasse">Terasă</h1>
+          <p class="t" data-ro="Știați că peisajul de poveste îmbunătățește gustul mâncării dumneavoastră?"
+            data-en="Did you know that the incredible view makes your food taste better?"
+            data-de="Wussten Sie, dass die märchenhafte Aussicht den Geschmack Ihres Essens verbessert?">
+            Știați că peisajul de poveste îmbunătățește gustul mâncării dumneavoastră?
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/psj.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="De ce Vila dintre Brazi?" data-en="Why should I visit Vila dintre Brazi?"
+            data-de="Warum die Vila dintre Brazi?">De ce Vila dintre Brazi?</h1>
+          <p class="t" data-ro="Peisajul • Linistea • Aventura" data-en="The view • Tranquility • Adventure"
+            data-de="Die Aussicht • Ruhe • Abenteuer">Peisajul • Liniștea • Aventura</p>
+          <a href="./activities.html" class="btn btn--primary btn--sm t" data-ro="Activități recomandate"
+            data-en="Suggested activities" data-de="Empfohlene Aktivitäten">Activități recomandate</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/snowboard.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Sporturi de iarnă?" data-en="Winter sports" data-de="Wintersport">Sporturi de iarnă?
+          </h1>
+          <p class="t"
+            data-ro="Vila este situată aproape de resortul de ski Păltiniș Arena, mai exact la 10 minute de mers pe jos sau 2 minute cu mașina."
+            data-en="The villa is located near the Păltiniș Arena ski resort, just a 10-minute walk or 2-minute drive away."
+            data-de="Die Villa liegt in der Nähe des Skigebiets Păltiniș Arena, nur 10 Gehminuten oder 2 Fahrminuten entfernt.">
+            Vila este situată aproape de resortul de ski Păltiniș Arena, mai exact la 10 minute de mers pe jos sau 2
+            minute cu mașina.
+          </p>
+          <p class="t"
+            data-ro="La 7 minute de noi cu mașina puteți vizita stațiunea veche a Păltinișului unde găsiți și Pârtia Oncești (Păltiniș Ski Resort pe Google Maps)."
+            data-en="A 7-minute drive from us, you can visit the old Păltiniș resort where you will also find the Oncești slope (Păltiniș Ski Resort on Google Maps)."
+            data-de="Nur 7 Autominuten entfernt können Sie das alte Păltiniș besuchen, wo sich auch die Oncești-Piste befindet (Păltiniș Ski Resort auf Google Maps).">
+            La 7 minute de noi cu mașina puteți vizita stațiunea veche a Păltinișului unde găsiți și Pârtia Oncești
+            (Păltiniș Ski Resort pe Google Maps).
+          </p>
+          <a href="./activities.html" class="btn btn--primary btn--sm t" data-ro="Nu rata în Păltiniș"
+            data-en="Hidden gems in Păltiniș" data-de="Verborgene Schätze in Păltiniș">Nu rata în Păltiniș</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/pingpong.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foișor și tenis de masă" data-en="Patio and table tennis"
+            data-de="Pavillon und Tischtennis">Foișor și tenis de masă</h1>
+          <p class="t" data-ro="tenis de masă • loc de servit masa • petreceri"
+            data-en="table tennis • dining place • parties" data-de="Tischtennis • Essplatz • Feiern">tenis de masă •
+            loc de servit masa • petreceri</p>
+        </div>
+      </div>
+    </section>
+    <div class="dots-container"></div> <!-- Dots will be generated here -->
+
+  </div>
+
+
+  <div class="slider-container">
+    <h2 class="t" data-ro="Vila 2" data-en="Vila 2" data-de="Vila 2">Vila 2</h2>
+
+    <section class="house-showcase">
+      <div class="current-image"></div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/v2iarna.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Vila 2" data-en="Vila 2" data-de="Villa 2">Vila 2</h1>
+          <p class="t" data-ro="16 locuri • Bucătărie • Living si sală de mese"
+            data-en="Suitable for 16 persons • Kitchen • Living room and dining room"
+            data-de="16 Plätze • Küche • Wohn- und Esszimmer">16 locuri • Bucătărie • Living si sală de mese</p>
+          <a href="./rooms-facilities.html" class="btn btn--primary btn--sm t" data-ro="Vezi camerele" data-en="See the rooms"
+            data-de="Zimmer ansehen">Vezi camerele</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/LIVING5.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Living" data-en="Living" data-de="Wohnzimmer">Living</h1>
+          <p class="t" data-ro="Seară de jocuri • Seară de film • Petrecere" data-en="Game night • Movie night • Party"
+            data-de="Spieleabend • Filmabend • Party">Seară de jocuri • Seară de film • Petrecere</p>
+          <a href="./rooms-facilities.html" class="btn btn--primary btn--sm t" data-ro="Descoperă camerele"
+            data-en="Discover our rooms" data-de="Entdecke unsere Zimmer">Descoperă camerele</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/living1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Living" data-en="Living" data-de="Wohnzimmer">Living</h1>
+          <p class="t" data-ro="Seară de jocuri • Seară de film • Petrecere" data-en="Game night • Movie night • Party"
+            data-de="Spieleabend • Filmabend • Party">Seară de jocuri • Seară de film • Petrecere</p>
+          <a href="./rooms-facilities.html" class="btn btn--primary btn--sm t" data-ro="Descoperă camerele"
+            data-en="Discover our rooms" data-de="Entdecke unsere Zimmer">Descoperă camerele</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/living7.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Living" data-en="Living" data-de="Wohnzimmer">Living</h1>
+          <p class="t" data-ro="Seară de jocuri • Seară de film • Petrecere" data-en="Game night • Movie night • Party"
+            data-de="Spieleabend • Filmabend • Party">Seară de jocuri • Seară de film • Petrecere</p>
+          <a href="./rooms-facilities.html" class="btn btn--primary btn--sm t" data-ro="Descoperă camerele"
+            data-en="Discover our rooms" data-de="Entdecke unsere Zimmer">Descoperă camerele</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/living4.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Living" data-en="Living" data-de="Wohnzimmer">Living</h1>
+          <p class="t" data-ro="Seară de jocuri • Seară de film • Petrecere" data-en="Game night • Movie night • Party"
+            data-de="Spieleabend • Filmabend • Party">Seară de jocuri • Seară de film • Petrecere</p>
+          <a href="./rooms-facilities.html" class="btn btn--primary btn--sm t" data-ro="Descoperă camerele"
+            data-en="Discover our rooms" data-de="Entdecke unsere Zimmer">Descoperă camerele</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/livingbalcon.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Balconul din living" data-en="The balcony from the living room"
+            data-de="Der Balkon des Wohnzimmers">Balconul din living</h1>
+          <p class="t" data-ro="Soarbe din cafea/ceai cu un asemenea view."
+            data-en="Enjoy your coffee/tea with such a view."
+            data-de="Genießen Sie Ihren Kaffee/Tee mit so einer Aussicht.">Soarbe din cafea/ceai cu un asemenea view.
+          </p>
+          <a href="./activities.html" class="btn btn--primary btn--sm t" data-ro="Planifică excursiile de zi"
+            data-en="Plan your day trips" data-de="Plane deine Tagesausflüge">Planifică excursiile de zi</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bucatariemica1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Bucătarie complet utilată" data-en="Fully equipped kitchen"
+            data-de="Voll ausgestattete Küche">Bucătarie complet utilată</h1>
+          <p class="t" data-ro="Vila se închirează în regim de autogospodărire."
+            data-en="The villa is rented on a self-catering basis."
+            data-de="Die Villa wird zur Selbstverpflegung vermietet.">Vila se închirează în regim de autogospodărire.
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bucatariemica2.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Bucătărie complet utilată" data-en="Fully equipped kitchen"
+            data-de="Voll ausgestattete Küche">Bucătărie complet utilată</h1>
+          <p class="t" data-ro="Gătit ca acasă" data-en="Cook like home." data-de="Kochen wie zuhause.">Gătit ca acasă
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bucatariemica3.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Balconul bucătăriei" data-en="Kitchen's balcony" data-de="Der Balkon der Küche">
+            Balconul bucătăriei</h1>
+          <p class="t" data-ro="Ieși pe balcon și bucură-te de priveliște."
+            data-en="Step out onto your private balcony and enjoy the view."
+            data-de="Treten Sie auf Ihren Balkon und genießen Sie die Aussicht.">Ieși pe balcon și bucură-te de
+            priveliște.</p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/foisor.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foișor & Grill" data-en="Patio & Grill" data-de="Pavillon & Grill">Foișor & Grill</h1>
+          <p class="t" data-ro="În apropierea foișorului puteți pregăti bucate alese la grătar."
+            data-en="Close to the patio you can prepare great dishes on the grill."
+            data-de="In der Nähe des Pavillons können Sie leckere Gerichte auf dem Grill zubereiten.">
+            În apropierea foișorului puteți pregăti bucate alese la grătar.
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/ceai.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foc de tabără" data-en="Campfire" data-de="Lagerfeuer">Foc de tabără</h1>
+          <p class="t" data-ro="Ceai • Vin fiert • Tradiție" data-en="Tea • Mulled wine • Tradition"
+            data-de="Tee • Glühwein • Tradition">Ceai • Vin fiert • Tradiție</p>
+        </div>
+      </div>
+    </section>
+    <div class="dots-container"></div> <!-- Dots will be generated here -->
+
+  </div>
+
+  <div class="slider-container" id="rooms">
+    <h2 class="t" data-ro="Facilitățile vilelor" data-en="Facilities of the villas" data-de="Ausstattung der Villen">
+      Facilitățile vilelor</h2>
+
+    <section class="house-showcase">
+      <div class="current-image"></div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/mese1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Terasa vilei 1" data-en="Vila 1 terrace" data-de="Terrasse der Villa 1">Terasa vilei 1
+          </h1>
+          <p class="t" data-ro="Ieși pe terasă și bucură-te de peisaj!"
+            data-en="Step out on the terrace and enjoy the view!"
+            data-de="Treten Sie auf die Terrasse und genießen Sie die Aussicht!">Ieși pe terasă și bucură-te de peisaj!
+          </p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/mese2.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="De ce Vila dintre Brazi?" data-en="Why should I visit Vila dintre Brazi?"
+            data-de="Warum sollte ich die Vila dintre Brazi besuchen?">De ce Vila dintre Brazi?</h1>
+          <p class="t" data-ro="Peisajul • Liniștea • Aventura" data-en="The view • Tranquility • Adventure"
+            data-de="Die Aussicht • Ruhe • Abenteuer">Peisajul • Liniștea • Aventura</p>
+          <a href="" class="btn btn--primary btn--sm t" data-ro="Explorează Păltinișul" data-en="Explore Păltiniș"
+            data-de="Entdecke Păltiniș">Explorează Păltinișul</a>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/balansoare1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Balansoare acoperite" data-en="Covered swings" data-de="Überdachte Schaukeln">
+            Balansoare acoperite</h1>
+          <p class="t" data-ro="Liniște, aer curat și priveliști de iarnă"
+            data-en="Peace, fresh air, and perfect winter views for relaxing"
+            data-de="Ruhe, frische Luft und perfekte Winteraussichten zum Entspannen">Liniște, aer curat și priveliști
+            de iarnă</p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/pingpong.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foișor și tenis de masă" data-en="Patio and table tennis"
+            data-de="Pavillon und Tischtennis">Foișor și tenis de masă</h1>
+          <p class="t" data-ro="tenis de masă • loc de servit masa • petreceri"
+            data-en="table tennis • dining place • parties" data-de="Tischtennis • Essplatz • Feiern">tenis de masă •
+            loc de servit masa • petreceri</p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bbq1.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foișor BBQ" data-en="BBQ patio" data-de="BBQ-Pavillon">Foișor BBQ</h1>
+          <p class="t" data-ro="Locul perfect pentru a găti o tocană la ceaun sau un grătărel?"
+            data-en="The perfect spot to cook a stew in a cauldron or fire up the grill"
+            data-de="Der perfekte Ort, um einen Eintopf im Kessel zu kochen oder zu grillen">Locul perfect pentru a găti
+            o tocană la ceaun sau un grătărel?</p>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bbq2.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foișor BBQ" data-en="BBQ patio" data-de="BBQ-Pavillon">Foișor BBQ</h1>
+        </div>
+      </div>
+
+      <div class="slider-image">
+        <img loading="lazy" decoding="async" src="./images/bbq3.webp" alt="">
+        <div class="current-image-content">
+          <h1 class="t" data-ro="Foișor BBQ" data-en="BBQ patio" data-de="BBQ-Pavillon">Foișor BBQ</h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="dots-container"></div> <!-- Dots will be generated here -->
+  </div>
+
+<!-- 
+  <section>
+    <div class="google-reviews">
+
+      
+      <script src="https://static.elfsight.com/platform/platform.js" async></script>
+      <div class="elfsight-app-0a7e9139-f26a-419b-9a54-857835ead1fc" data-elfsight-app-lazy></div>
+
+    </div>
+  </section>
+
+-->
+
+  <div class="testimonial-inner">
+    <h2 class="t" 
+        data-ro="Ce spun oaspeții noștri" 
+        data-en="Hear from our happy guests"
+        data-de="Was unsere Gäste sagen">
+      Ce spun oaspeții noștri
+    </h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="star-rating" data-rating="5"></div>
+        <p class="t" 
+           data-ro="&ldquo;Am petrecut un weekend minunat împreună cu un grup de prieteni.  Condiții de cazare f bune la preturi decente, curățenie gazda primitoare,amplasarea locației în apropierea pârtiei de schi, peisaje superbe. Vila are parcare proprie, loc de relaxare iar domnul Nicolae  ne-a răsfățat indeplinidu- ne toate doleanțele.  Vom mai reveni cu siguranță&rdquo;" 
+           data-en="&ldquo;I spent a wonderful weekend here together with a group of friends. Very good accommodation conditions at decent prices, cleanliness, a welcoming host, and the location is situated near the ski slope with superb landscapes. The villa has its own private parking, a relaxation area, and Mr. Nicolae spoiled us by fulfilling all our requests. We will definitely return!&rdquo;"
+           data-de="&ldquo;Ich habe hier ein wunderschönes Wochenende zusammen mit einer Gruppe von Freunden verbracht. Sehr gute Unterkunftsbedingungen zu fairen Preisen, Sauberkeit, ein herzlicher Gastgeber und die Lage der Villa in der Nähe der Skipiste bietet eine herrliche Landschaft. Die Villa verfügt über einen eigenen Parkplatz, einen Ruhebereich und Herr Nicolae hat uns verwöhnt, indem er uns jeden Wunsch erfüllt hat. Wir werden auf jeden Fall wiederkommen!&rdquo;">
+          &ldquo;Am petrecut un weekend minunat împreună cu un grup de prieteni.  Condiții de cazare f bune la preturi decente, curățenie gazda primitoare,amplasarea locației în apropierea pârtiei de schi, peisaje superbe. Vila are parcare proprie, loc de relaxare iar domnul Nicolae  ne-a răsfățat indeplinidu- ne toate doleanțele.  Vom mai reveni cu siguranță&rdquo;
+        </p>
+        <div class="author-info">
+          <strong>Consilieri CJH 2020, 40</strong>
+          <span class="visit-date t" data-ro="Vizitat: Aug 2025" data-en="Visited: Aug 2025" data-de="Besucht: Aug 2025">Vizitat: Aug 2025</span>
+        </div>
+      </div>
+      
+
+      <div class="testimonial-card">
+        <div class="star-rating" data-rating="5"></div>
+        <p class="t" 
+           data-ro="&ldquo;Vila este poziționată la marginea pădurii de brazi, ceea ce oferă o priveliște frumoasă. Curtea este generoasă, ideală pentru familii cu copii, amenajată cu foișoare, leagăne , spațiu pentru grătar sau ceaun. Foarte aproape de pârtie. Cu siguranță vom mai reveni!&rdquo;" 
+           data-en="&ldquo;The villa is positioned right at the edge of the pine forest, which offers a beautiful view. The yard is spacious, ideal for families with children, and comes equipped with patios, swings, and space for a barbecue or cauldron. Very close to the ski slope. We will definitely return!&rdquo;"
+           data-de="&ldquo;Die Villa liegt direkt am Rande des Tannenwaldes, was eine wunderschöne Aussicht bietet. Der Hof ist sehr großzügig, ideal für Familien mit Kindern und mit Pavillons, Schaukeln sowie Platz für Grill oder Kessel ausgestattet. Ganz in der Nähe der Skipiste. Wir werden auf jeden Fall wiederkommen!&rdquo;">
+          &ldquo;Vila este poziționată la marginea pădurii de brazi, ceea ce oferă o priveliște frumoasă. Curtea este generoasă, ideală pentru familii cu copii, amenajată cu foișoare, leagăne , spațiu pentru grătar sau ceaun. Foarte aproape de pârtie. Cu siguranță vom mai reveni!&rdquo;
+        </p>
+        <div class="author-info">
+          <strong>Loredana Gherghes-Cruceru, 45</strong>
+          <span class="visit-date t" data-ro="Vizitat: Feb 2025" data-en="Visited: Feb 2025" data-de="Besucht: Feb 2025">Vizitat: Feb 2025</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="star-rating" data-rating="5"></div>
+        <p class="t" 
+           data-ro="&ldquo;Vin aici in fiecare iarna si ma simt ca acasa. Vila este aproape de partie, 10 minute de mers pe jos. 5 stele pentru ospitalitate, curatenie, priveliste si liniste.&rdquo;" 
+           data-en="&ldquo;I come here every winter and it truly feels like home. The villa is close to the ski slope, just a 10-minute walk away. 5 stars for the hospitality, cleanliness, view, and tranquility.&rdquo;"
+           data-de="&ldquo;Ich komme devinitiv jeden Winter hierher und fühle mich wie zu Hause. Die Villa liegt in der Nähe der Piste, nur 10 Gehminuten entfernt. 5 Sterne für die Gastfreundschaft, Sauberkeit, Aussicht und Ruhe.&rdquo;">
+          &ldquo;Vin aici in fiecare iarna si ma simt ca acasa. Vila este aproape de partie, 10 minute de mers pe jos. 5 stele pentru ospitalitate, curatenie, priveliste si liniste.&rdquo;
+        </p>
+        <div class="author-info">
+          <strong>Nicoleta Zeca, 30</strong>
+          <span class="visit-date t" data-ro="Vizitat: Ian 2018" data-en="Visited: Jan 2018" data-de="Besucht: Jan 2018">Vizitat: Ian 2018</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!------------------------------------------- whapppp thingy-->
+
+
+  <section class="reservation-section" id="reservation">
+    <div class="reservation-image">
+      <img src="./images/psj.webp" alt="Vila dintre Brazi iarna" width="1000" height="750" loading="lazy">
+    </div>
+
+    <div class="reservation-content">
+      <h2 class="t" data-ro="Rezervă-ți sejurul" data-en="Reserve Your Stay" data-de="Reserviere deinen Aufenthalt">
+        Rezervă-ți sejurul</h2>
+      <p class="reservation-lead t"
+        data-ro="Alege perioada și numărul de persoane, iar noi îți confirmăm disponibilitatea pe WhatsApp în cel mai scurt timp."
+        data-en="Pick your dates and the number of guests — we'll confirm availability on WhatsApp as soon as possible."
+        data-de="Wählen Sie Ihren Zeitraum und die Anzahl der Gäste – wir bestätigen die Verfügbarkeit schnellstmöglich per WhatsApp.">
+        Alege perioada și numărul de persoane, iar noi îți confirmăm disponibilitatea pe WhatsApp în cel mai scurt timp.
+      </p>
+
+      <div class="form-group">
+        <label for="calendar" class="t" data-ro="1. Selectează perioada" data-en="1. Select your dates"
+          data-de="1. Zeitraum auswählen">1. Selectează perioada</label>
+        <input type="hidden" id="dateRange">
+        <div id="calendar"></div>
+      </div>
+
+      <div class="form-group">
+        <label class="t" data-ro="2. Număr de persoane" data-en="2. Number of guests"
+          data-de="2. Anzahl der Gäste">2. Număr de persoane</label>
+
+        <div class="guest-steppers">
+          <div class="stepper-row">
+            <div class="stepper-label">
+              <span class="stepper-title t" data-ro="Adulți" data-en="Adults" data-de="Erwachsene">Adulți</span>
+              <span class="stepper-sub t" data-ro="13+ ani" data-en="Ages 13+" data-de="Ab 13 Jahren">13+ ani</span>
+            </div>
+            <div class="stepper-controls">
+              <button type="button" class="stepper-btn" data-target="adults" data-dir="-1" aria-label="−">−</button>
+              <span class="stepper-value" id="adults">2</span>
+              <button type="button" class="stepper-btn" data-target="adults" data-dir="1" aria-label="+">+</button>
+            </div>
+          </div>
+
+          <div class="stepper-row">
+            <div class="stepper-label">
+              <span class="stepper-title t" data-ro="Copii" data-en="Children" data-de="Kinder">Copii</span>
+              <span class="stepper-sub t" data-ro="0–12 ani" data-en="Ages 0–12" data-de="0–12 Jahre">0–12 ani</span>
+            </div>
+            <div class="stepper-controls">
+              <button type="button" class="stepper-btn" data-target="children" data-dir="-1" aria-label="−">−</button>
+              <span class="stepper-value" id="children">0</span>
+              <button type="button" class="stepper-btn" data-target="children" data-dir="1" aria-label="+">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="name" class="t" data-ro="3. Numele dumneavoastră" data-en="3. Your name" data-de="3. Ihr Name">3.
+          Numele dumneavoastră</label>
+        <input type="text" id="name" class="t" data-ro="Introduceți numele" data-en="Enter your name"
+          data-de="Name eingeben" placeholder="Introduceți numele" autocomplete="name">
+      </div>
+
+      <div class="reservation-summary" id="resSummary" aria-live="polite"></div>
+
+      <div class="reservation-btn">
+        <button type="button" class="btn btn--whatsapp btn--block" onclick="sendToWhatsApp()">
+          <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true" fill="currentColor">
+            <path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2.1c1.8 1 3.9 1.5 6.1 1.5 7 0 12.5-5.5 12.5-12.5S23 3 16 3zm0 22.7c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.4 1.2 1.2-4.3-.3-.4c-1-1.6-1.6-3.5-1.6-5.5C5.2 9.6 10 5 16 5s10.8 4.6 10.8 10.5S22 25.7 16 25.7zm6-7.9c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6s-.7-1.7-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/>
+          </svg>
+          <span class="t" data-ro="Trimite pe WhatsApp" data-en="Send via WhatsApp"
+            data-de="Per WhatsApp senden">Trimite pe WhatsApp</span>
+        </button>
+      </div>
+      <p class="reservation-note t"
+        data-ro="Nu se efectuează nicio plată online. Deschidem WhatsApp cu mesajul deja completat."
+        data-en="No online payment. We simply open WhatsApp with your message pre-filled."
+        data-de="Keine Online-Zahlung. Wir öffnen WhatsApp mit Ihrer vorausgefüllten Nachricht.">
+        Nu se efectuează nicio plată online. Deschidem WhatsApp cu mesajul deja completat.
+      </p>
+    </div>
+  </section>
+
+  <!------------------------------------------- whapppp thingy-->
+
+  <!-- ============ SITE FOOTER (shared across pages) ============ -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-top">
+      <div class="footer-col footer-about">
+        <div class="footer-brand">
+          <span class="footer-logo" aria-hidden="true"></span>
+          <span class="footer-brand-name">Vila dintre Brazi</span>
+        </div>
+        <p class="footer-tagline t"
+          data-ro="Două vile în inima Păltinișului. Natură, liniște și confort, la 10 minute de pârtie."
+          data-en="Two villas in the heart of Păltiniș. Nature, peace and comfort, 10 minutes from the slope."
+          data-de="Zwei Villen im Herzen von Păltiniș. Natur, Ruhe und Komfort, 10 Minuten von der Piste.">
+          Două vile în inima Păltinișului. Natură, liniște și confort, la 10 minute de pârtie.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="t" data-ro="Contact" data-en="Contact" data-de="Kontakt">Contact</h3>
+        <ul class="footer-list">
+          <li>
+            <a href="https://www.google.com/maps/search/?api=1&query=Vila%20dintre%20Brazi%20Strada%20Bradului%202%20P%C4%83ltini%C8%99%20550001"
+              target="_blank" rel="noopener">
+              <span class="footer-ico">📍</span>
+              <span class="t" data-ro="str. Bradului 2, Păltiniș, jud. Sibiu"
+                data-en="str. Bradului 2, Păltiniș, Sibiu county"
+                data-de="str. Bradului 2, Păltiniș, Kreis Sibiu">str. Bradului 2, Păltiniș, jud. Sibiu</span>
+            </a>
+          </li>
+          <li><a href="tel:+40745306009"><span class="footer-ico">📞</span>+40 745 306 009</a></li>
+          <li><a href="https://wa.me/40745306009" target="_blank" rel="noopener"><span class="footer-ico">💬</span>WhatsApp</a></li>
+          <li><a href="https://instagram.com/vila_dintre_brazi" target="_blank" rel="noopener"><span class="footer-ico">◎</span>@vila_dintre_brazi</a></li>
+          <li><a href="mailto:viladintrebrazi@yahoo.com"><span class="footer-ico">✉</span>viladintrebrazi@yahoo.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="t" data-ro="Navigare" data-en="Explore" data-de="Navigation">Navigare</h3>
+        <ul class="footer-list">
+          <li><a href="./index.html" class="t" data-ro="Acasă" data-en="Home" data-de="Startseite">Acasă</a></li>
+          <li><a href="./rooms-facilities.html" class="t" data-ro="Camere & facilități" data-en="Rooms & facilities"
+              data-de="Zimmer & Ausstattung">Camere & facilități</a></li>
+          <li><a href="./activities.html" class="t" data-ro="Activități" data-en="Activities"
+              data-de="Aktivitäten">Activități</a></li>
+          <li><a href="./index.html#reservation" class="t" data-ro="Rezervă" data-en="Book now"
+              data-de="Buchen">Rezervă</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="t" data-ro="Legal" data-en="Legal" data-de="Rechtliches">Legal</h3>
+        <ul class="footer-list">
+          <li><a href="./privacy.html" class="t" data-ro="Politica de confidențialitate" data-en="Privacy Policy"
+              data-de="Datenschutz">Politica de confidențialitate</a></li>
+          <li><a href="./terms.html" class="t" data-ro="Termeni și condiții" data-en="Terms & Conditions"
+              data-de="AGB">Termeni și condiții</a></li>
+          <li><a href="./cookies.html" class="t" data-ro="Politica de cookie-uri" data-en="Cookie Policy"
+              data-de="Cookie-Richtlinie">Politica de cookie-uri</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ANPC banners (required for RO businesses that contract with consumers) -->
+    <div class="footer-anpc">
+      <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="./svg/anpc-sal.svg" width="250" height="50" alt="ANPC - Soluționarea Alternativă a Litigiilor (SAL)">
+      </a>
+      <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="./svg/anpc-sol.svg" width="250" height="50" alt="Comisia Europeană - Soluționarea Online a Litigiilor (SOL)">
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-company">
+        ROMA VIMI S.R.L. · CUI: 35795295 · Reg. Com.: J32/395/2016 ·
+        Sediu social: Zona Platoș nr. 24, com. Poplaca, jud. Sibiu, 557185, România
+      </p>
+      <p class="footer-copy">© <span id="footerYear">2026</span> Vila dintre Brazi ·
+        <span class="t" data-ro="Toate drepturile rezervate." data-en="All rights reserved."
+          data-de="Alle Rechte vorbehalten.">Toate drepturile rezervate.</span>
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="./script.js" defer></script>
+  <script src="./nav.js" defer></script>
+
+</body>
+
+
+
+</html>
