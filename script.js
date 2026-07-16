@@ -167,6 +167,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const p = video.play();
       if (p && typeof p.catch === "function") p.catch(() => {});
     });
+
+    // Play once: when it finishes, return to the poster + play button (no looping,
+    // no background buffering). load() resets to the poster and, thanks to
+    // preload="none", downloads nothing again until the visitor taps play.
+    video.addEventListener("ended", () => {
+      media.classList.remove("playing");
+      video.removeAttribute("controls");
+      video.load();
+    });
   })();
 
   /* =======================
